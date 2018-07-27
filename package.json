@@ -1,0 +1,32 @@
+{
+  "name": "TBC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "tslint src/*.ts test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TBC"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/jest": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "TBC"
+  },
+  "homepage": "TBC"
+}
