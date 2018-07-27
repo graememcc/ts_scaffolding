@@ -7,6 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "build": "webpack --env.production",
+    "watch": "webpack --watch --env.development",
+    "start": "webpack-dev-server --env.development",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "tslint src/*.ts test/*.ts"
@@ -17,11 +20,19 @@
   },
   "keywords": [],
   "devDependencies": {
-    "@types/jest": "latest",
+    "awesome-typescript-loader": "latest",
+    "clean-webpack-plugin": "latest",
+    "copy-webpack-plugin": "latest",
+    "git-revision-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
     "jest": "latest",
+    "script-ext-html-webpack-plugin": "latest",
     "ts-jest": "latest",
     "tslint": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   },
   "author": "",
   "license": "ISC",
