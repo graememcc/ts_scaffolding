@@ -20,6 +20,7 @@
   },
   "keywords": [],
   "devDependencies": {
+    "@types/jest": "latest",
     "awesome-typescript-loader": "latest",
     "clean-webpack-plugin": "latest",
     "copy-webpack-plugin": "latest",
